@@ -48,7 +48,7 @@
     </style>
 </head>
 <body>
-    <h1>Benvenuto al Presepe Interattivo!</h1>
+    <h1>Benvenuto al Presepe Interattivo! - ok</h1>
     <div class="image-container">
         <img src="grande-foto.jpg" alt="Foto Grande" style="width: 80%;">
         <!-- Aggiungi gli hotspot sopra l'immagine -->
