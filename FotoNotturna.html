@@ -15,7 +15,7 @@
         }
         .hotspot {
             position: absolute;
-            background-color: rgba(255, 0, 0, 0.5);  /* Colore visibile per hotspot */
+            background-color: rgba(0, 255, 255, 0.5);  /* Colore visibile per hotspot */
             border: 2px solid red;  /* Bordo rosso per visibilità */
             cursor: pointer;
         }
@@ -52,8 +52,11 @@
     <div class="image-container">
         <img src="grande-foto.jpg" alt="Foto Grande" style="width: 80%;">
         <!-- Aggiungi gli hotspot sopra l'immagine -->
-        <div class="hotspot" style="top: 10%; left: 10%; width: 25px; height: 25px;" onclick="showPopup('popup1')"></div>
-        <div class="hotspot" style="top: 60%; left: 60%; width: 50px; height: 50px;" onclick="showPopup('popup2')"></div>
+        <div class="hotspot" style="top: 10%; left: 10%; width: 15px; height: 15px;" onclick="showPopup('popup1')"></div>
+        <div class="hotspot" style="top: 60%; left: 60%; width: 15px; height: 15px;" onclick="showPopup('popup2')"></div>
+        <div class="hotspot" style="top: 40%; left: 40%; width: 15px; height: 15px;" onclick="showPopup('popup3')"></div>
+        <div class="hotspot" style="top: 75%; left: 35%; width: 15px; height: 15px;" onclick="showPopup('popup4')"></div>
+        <div class="hotspot" style="top: 18%; left: 25%; width: 15px; height: 15px;" onclick="showPopup('popup5')"></div>
     </div>
     
     <!-- Popups per mostrare i dettagli -->
